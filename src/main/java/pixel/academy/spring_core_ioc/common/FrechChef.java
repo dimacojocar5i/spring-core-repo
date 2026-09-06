@@ -10,6 +10,7 @@ public class FrechChef implements Chef {
         return "Preparez un Beuf Bourguignon avec vin rouge et herbes";
     }
 
-
-
+    public FrechChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
 }

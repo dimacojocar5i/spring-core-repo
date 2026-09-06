@@ -9,4 +9,8 @@ public class MexicanChef implements Chef {
     public String getDailyRecipe() {
         return "Prepara tacos al pastor con pina, cilantro y salsa picante";
     }
+
+    public MexicanChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
 }

@@ -10,4 +10,11 @@ public class ItalianChef implements Chef {
         return "Prepare pasta al pomodoro with fresh tomatoes and basil!";
     }
 
+    public ItalianChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
 }
+
+
+
+
