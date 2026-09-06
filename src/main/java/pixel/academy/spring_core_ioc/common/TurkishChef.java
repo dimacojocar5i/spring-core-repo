@@ -1,8 +1,10 @@
 package pixel.academy.spring_core_ioc.common;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
+
 public class TurkishChef implements Chef {
 
     @Override
