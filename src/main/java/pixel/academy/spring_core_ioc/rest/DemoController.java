@@ -14,7 +14,7 @@ public class DemoController {
 
     // constructor injection
     @Autowired
-    public DemoController(@Qualifier("frechChef") Chef theChef)
+    public DemoController(@Qualifier("greeckChef") Chef theChef)
     {myChef = theChef;}
 
 
