@@ -11,11 +11,13 @@ public class DemoController {
 
     private Chef myChef;
 
+
     // constructor injection
     @Autowired
-    public DemoController(@Qualifier("turkishChef") Chef theChef) {
-        myChef = theChef;
-    }
+    public DemoController(@Qualifier("frechChef") Chef theChef)
+    {myChef = theChef;}
+
+
 
     // setter injection
 //
